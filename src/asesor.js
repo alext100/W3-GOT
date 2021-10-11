@@ -1,6 +1,6 @@
-import JuegoDeTronos from "./JuegoDeTronos.js";
+import Personaje from "./Personaje.js";
 
-class Asesor extends JuegoDeTronos {
+class Asesor extends Personaje {
   characterHeAdvises; // rey, luchador, asesor o escudero
 
   constructor(nombre, familia, edad, estado, characterHeAdvises) {

@@ -1,6 +1,6 @@
-import JuegoDeTronos from "./JuegoDeTronos.js";
+import Personaje from "./Personaje.js";
 
-class Rey extends JuegoDeTronos {
+class Rey extends Personaje {
   yearsOfReign;
 
   constructor(nombre, familia, edad, estado, yearsOfReign) {

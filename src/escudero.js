@@ -1,6 +1,6 @@
-import JuegoDeTronos from "./JuegoDeTronos.js";
+import Personaje from "./Personaje.js";
 
-class Escudero extends JuegoDeTronos {
+class Escudero extends Personaje {
 
   characterHeServes; // luchador
   levelOf; // 0-10
