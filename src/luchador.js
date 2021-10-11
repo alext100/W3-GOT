@@ -1,14 +1,15 @@
-import juegoDeTronos from "./juegoDeTronos.js";
+import Personaje from "./Personaje.js";
 
-class luchador extends juegoDeTronos {
+class Luchador extends Personaje {
   weapon;
-
   skill; // 0-10
-
-  comunicar() {
-    "Primero pego y luego pregunto";
-  };
+  frase;
+  constructor(nombre, familia, edad, estado, skill, frase) {
+    super(nombre, familia, edad, estado);
+    this.skill = skill;
+    this.frase = "Primero pego y luego pregunto"
+  }
 
 }
 
-export default luchador;
+export default Luchador;

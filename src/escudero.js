@@ -1,15 +1,17 @@
-import juegoDeTronos from "./juegoDeTronos.js";
+import Personaje from "./Personaje.js";
 
-class escudero extends juegoDeTronos {
+class Escudero extends Personaje {
 
   characterHeServes; // luchador
-
   levelOf; // 0-10
 
-  comunicar() {
-    "Soy un loser";
+  constructor(nombre, familia, edad, estado, levelOf, characterHeServes) {
+    super(nombre, familia, edad, estado);
+    this.levelOf = levelOf;
+    this.characterHeServes = characterHeServes;
+    this.frase = "Soy un loser";
   }
 
 }
 
-export default escudero;
+export default Escudero;
