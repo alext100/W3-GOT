@@ -10,4 +10,4 @@ class rey extends juegoDeTronos {
 
 }
 
-export default juegoDeTronos;
+export default rey;

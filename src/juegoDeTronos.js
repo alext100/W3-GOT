@@ -1,4 +1,4 @@
-class JuegoDeTronos {
+class juegoDeTronos {
   nombre;
 
   familia;
@@ -18,4 +18,4 @@ class JuegoDeTronos {
 
 }
 
-export default JuegoDeTronos;
+export default juegoDeTronos;

@@ -10,3 +10,5 @@ class luchador extends juegoDeTronos {
   };
 
 }
+
+export default luchador;
