@@ -21,4 +21,5 @@ module.exports = {
     "no-debugger": "off",
     "no-console": "off"
   },
+  babel: {}
 };

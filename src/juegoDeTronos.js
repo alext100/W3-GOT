@@ -1,4 +1,4 @@
-class juegoDeTronos {
+class JuegoDeTronos {
   nombre;
 
   familia;
@@ -7,6 +7,8 @@ class juegoDeTronos {
 
   estado;
 
+  frase;
+
   constructor(nombre, familia, edad, estado) {
     this.nombre = nombre;
     this.familia = familia;
@@ -14,8 +16,10 @@ class juegoDeTronos {
     this.estado = estado;
   }
 
-  comunicar() { };
+  comunicar() {
+    return this.frase;
+  };
 
 }
 
-export default juegoDeTronos;
+export default JuegoDeTronos;

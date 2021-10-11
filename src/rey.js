@@ -1,13 +1,13 @@
-import juegoDeTronos from "./juegoDeTronos.js";
+import JuegoDeTronos from "./JuegoDeTronos.js";
 
-class rey extends juegoDeTronos {
-
+class Rey extends JuegoDeTronos {
   yearsOfReign;
 
-  comunicar() {
-    "Vais a morir todos";
+  constructor(nombre, familia, edad, estado, yearsOfReign) {
+    super(nombre, familia, edad, estado);
+    this.yearsOfReign = yearsOfReign;
+    this.frase = "Vais a morir todos";
   }
-
 }
 
-export default rey;
+export default Rey;
